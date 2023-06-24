@@ -29,15 +29,6 @@ public class Cliente extends Persona implements PagoCliente {
         this.empleadoAtencion = empleadoAtencion;
     }
 
-   //@Override
-    /*public String toString() {
-        return "Cliente{" +
-                "empresa=" + empresa.getNombre() +
-                ", empleadoAtencion=" + empleadoAtencion.getNombre() +
-                '}';
-    }
-    */
-
     @Override
     public String toString() {
         return "Cliente: \n" +
